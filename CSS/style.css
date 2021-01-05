@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+
+/* Background CSS */
+.custom-background {
+  position: fixed;
+}
+
+.image-top {
+  transform: translate(-35%, -55%);
+}
+
+.image-bottom {
+  transform: translate(60%, 30%);
+}
+
+/* Card Background */
+.victor_background {
+  height: 320px;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.012), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+}
+
+.card-pattern {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Card-Image CSS */
+.victor-profile {
+  border-radius: 100%;
+  width: 80px;
+  border: 6px solid white;
+  position: absolute;
+  top: 24%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* Card-Body */
+.card-body {
+  margin: 60px 50px 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+}
+
+hr {
+  margin: 17px 0;
+  
+}
+
+/* Card Footer */
+.card-footer {
+  padding: 10px 5px;
+}
+
+.title-num {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.title-num span {
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: .5rem;
+  color: #888;
+}
+
+/* Mobile-CSS */
+@media (max-width: 375px) {
+  .image-top {
+    transform: translate(-77%, -70%);
+  }
+
+  .image-bottom {
+    transform: translate(12%, 27%);
+  }
+}
